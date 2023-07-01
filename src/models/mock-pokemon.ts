@@ -109,42 +109,42 @@ export const POKEMONS: pokemon[] = [
         types: ["Feu"],
         created: new Date()
     },
-    {
-        id: 13,
-        name: "Volarab",
-        hp: 22,
-        cp: 10,
-        picture: "https://risibank.fr/cache/medias/0/21/2105/210547/full.png",
-        types: ["Combat", "Vol"],
-        created: new Date()
-    },
-    {
-        id: 14,
-        name: "Sardoche",
-        hp: 19,
-        cp: 12,
-        picture: "https://image.noelshack.com/fichiers/2017/25/2/1497926596-sardoche2.png",
-        types: ["Poison"],
-        created: new Date()
-    },
-    {
-        id: 15,
-        name: "Naruto",
-        hp: 19,
-        cp: 12,
-        picture: "../src/assets/naruto.png",
-        types: ["Ninja"],
-        created: new Date()
-    },
-    {
-        id: 16,
-        name: "Jiraya",
-        hp: 19,
-        cp: 12,
-        picture: "../src/assets/jiraya.png",
-        types: ["Ninja"],
-        created: new Date()
-    }
+    // {
+    //     id: 13,
+    //     name: "Volarab",
+    //     hp: 22,
+    //     cp: 10,
+    //     picture: "https://risibank.fr/cache/medias/0/21/2105/210547/full.png",
+    //     types: ["Combat", "Vol"],
+    //     created: new Date()
+    // },
+    // {
+    //     id: 14,
+    //     name: "Sardoche",
+    //     hp: 19,
+    //     cp: 12,
+    //     picture: "https://image.noelshack.com/fichiers/2017/25/2/1497926596-sardoche2.png",
+    //     types: ["Poison"],
+    //     created: new Date()
+    // },
+    // {
+    //     id: 15,
+    //     name: "Naruto",
+    //     hp: 19,
+    //     cp: 12,
+    //     picture: "../src/assets/naruto.png",
+    //     types: ["Ninja"],
+    //     created: new Date()
+    // },
+    // {
+    //     id: 16,
+    //     name: "Jiraya",
+    //     hp: 19,
+    //     cp: 12,
+    //     picture: "../src/assets/jiraya.png",
+    //     types: ["Ninja"],
+    //     created: new Date()
+    // }
 ];
 
 export default POKEMONS;
