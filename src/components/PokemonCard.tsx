@@ -8,21 +8,24 @@ interface PokemonCardProps {
 }
 
 const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
+  const typeColors = pokemon.types.map(type => useTypeColor(type));
+
   return (
     <div className="pokemonCard">
       <p className='pokemonName'>{pokemon.name.toUpperCase()}</p>
-      <img className='pokemonPicture' src={pokemon.picture} alt="" width='210' height='210' />
-      {pokemon.types.length < 1 ?
-        <p className='pokemonType'>{pokemon.types}</p> :
-        <div className='types-container'>
-          {pokemon.types.map((type, index) => {
-            const color = useTypeColor(type);
-            return (
-              <p className='pokemonType' key={index} style={{ backgroundColor: color }}>{type}</p>
-            )
-          })}
-        </div>
-      }
+      <img className='pokemonPicture' src={pokemon.picture} alt={pokemon.name} width='210' height='210' />
+
+      <div className='types-container'>
+        {pokemon.types.map((type, color) => {
+          return (
+            <p className={pokemon.types.length < 2 ? 'monoType' : 'duoType'}
+              key={color}
+              style={{ backgroundColor: typeColors[color] }}>
+              {type}
+            </p>
+          )
+        })}
+      </div>
     </div>
   );
 };

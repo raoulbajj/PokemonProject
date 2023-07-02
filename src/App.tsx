@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <Title />
-
       <MasterBall count={pokemons.length} />
 
       <div className="cardsContainer">

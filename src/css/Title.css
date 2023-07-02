@@ -11,9 +11,10 @@
     padding: 0;
     margin: 0;
     transition: ease .3s;
+    max-height: 150px;
 }
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 700px) 
 {
     .title 
     {
@@ -21,14 +22,34 @@
         justify-content: center;
         transition: gap ease .3s;
     }
+
+    .pokeballImg
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+    .mainTxt
+    {
+        font-size: 4em !important;
+        max-height: 100px !important;
+        position: relative;
+        bottom: 40px !important;
+    }
 }
 
 .mainTxt 
 {
-    margin: 0;
-    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 !important;
     font-family: 'Pokemon Solid', sans-serif;
     color: #FFCC01;
     font-size: 6em;
     letter-spacing: 5px;
+    position: relative;
+    bottom: 20px;
 }
