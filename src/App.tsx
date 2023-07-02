@@ -14,7 +14,7 @@ function App() {
     <>
       <Title />
 
-      <Test count={42} />
+      {/* <Test count={42} /> */}
 
       <MasterBall count={pokemons.length} />
 
