@@ -5,13 +5,14 @@ import { useTypeColor } from '../hooks/typeColor';
 
 interface PokemonCardProps {
   pokemon: Pokemon;
+  onClick: () => void;
 }
 
-const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
+const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon, onClick }) => {
   const typeColors = pokemon.types.map(type => useTypeColor(type));
 
   return (
-    <div className="pokemonCard">
+    <div className="pokemonCard" onClick={onClick}>
       <p className='pokemonName'>{pokemon.name.toUpperCase()}</p>
       <img className='pokemonPicture' src={pokemon.picture} alt={pokemon.name} width='210' height='210' />
 

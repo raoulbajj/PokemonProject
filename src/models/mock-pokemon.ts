@@ -151,7 +151,7 @@ export const POKEMONS: pokemon[] = [
         hp: 19,
         cp: 2,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png",
-        types: ["Eau","Psy"],
+        types: ["Eau", "Psy"],
         created: new Date()
     },
     {

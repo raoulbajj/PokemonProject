@@ -1,5 +1,4 @@
-.title 
-{
+.title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,25 +13,20 @@
     max-height: 150px;
 }
 
-@media screen and (max-width: 700px) 
-{
-    .title 
-    {
+@media screen and (max-width: 700px) {
+    .title {
         gap: 10px;
         justify-content: center;
         transition: gap ease .3s;
     }
 
-    .pokeballImg
-    {
+    .pokeballImg {
         display: none;
     }
 }
 
-@media screen and (max-width: 450px) 
-{
-    .mainTxt
-    {
+@media screen and (max-width: 450px) {
+    .mainTxt {
         font-size: 4em !important;
         max-height: 100px !important;
         position: relative;
@@ -40,8 +34,7 @@
     }
 }
 
-.mainTxt 
-{
+.mainTxt {
     display: flex;
     align-items: flex-start;
     justify-content: center;

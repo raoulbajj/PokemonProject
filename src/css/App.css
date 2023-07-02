@@ -1,5 +1,4 @@
-.cardsContainer 
-{
+.cardsContainer {
     display: flex;
     justify-content: center;
     align-items: center;

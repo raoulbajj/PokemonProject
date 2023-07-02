@@ -19,7 +19,7 @@ export default class Pokemon {
             types: Array<string> = ['Normal'],
             created: Date = new Date()
         ) {
-            
+
         // 3. Initialisation des propriétés d'un pokemon.
         this.id = id;
         this.hp = hp;
