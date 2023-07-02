@@ -88,7 +88,7 @@ export const POKEMONS: pokemon[] = [
         hp: 19,
         cp: 3,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
-        types: ["Normal"],
+        types: ["Sol"],
         created: new Date()
     },
     {
@@ -109,42 +109,69 @@ export const POKEMONS: pokemon[] = [
         types: ["Feu"],
         created: new Date()
     },
-    // {
-    //     id: 13,
-    //     name: "Volarab",
-    //     hp: 22,
-    //     cp: 10,
-    //     picture: "https://risibank.fr/cache/medias/0/21/2105/210547/full.png",
-    //     types: ["Combat", "Vol"],
-    //     created: new Date()
-    // },
-    // {
-    //     id: 14,
-    //     name: "Sardoche",
-    //     hp: 19,
-    //     cp: 12,
-    //     picture: "https://image.noelshack.com/fichiers/2017/25/2/1497926596-sardoche2.png",
-    //     types: ["Poison"],
-    //     created: new Date()
-    // },
-    // {
-    //     id: 15,
-    //     name: "Naruto",
-    //     hp: 19,
-    //     cp: 12,
-    //     picture: "../src/assets/naruto.png",
-    //     types: ["Ninja"],
-    //     created: new Date()
-    // },
-    // {
-    //     id: 16,
-    //     name: "Jiraya",
-    //     hp: 19,
-    //     cp: 12,
-    //     picture: "../src/assets/jiraya.png",
-    //     types: ["Ninja"],
-    //     created: new Date()
-    // }
+    {
+        id: 14,
+        name: "Nosferapti",
+        hp: 15,
+        cp: 3,
+        picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png",
+        types: ["Poison", "Vol"],
+        created: new Date()
+    },
+    {
+        id: 15,
+        name: "Mystherbe",
+        hp: 22,
+        cp: 5,
+        picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png",
+        types: ["Plante", "Poison"],
+        created: new Date()
+    },
+    {
+        id: 16,
+        name: "Taupiqueur",
+        hp: 20,
+        cp: 4,
+        picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png",
+        types: ["Sol"],
+        created: new Date()
+    },
+    {
+        id: 17,
+        name: "Racaillou",
+        hp: 18,
+        cp: 5,
+        picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/074.png",
+        types: ["Roche", "Sol"],
+        created: new Date()
+    },
+    {
+        id: 18,
+        name: "Soporifik",
+        hp: 19,
+        cp: 2,
+        picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png",
+        types: ["Psy"],
+        created: new Date()
+    },
+    {
+        id: 19,
+        name: "Krabby",
+        hp: 21,
+        cp: 5,
+        picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/098.png",
+        types: ["Eau"],
+        created: new Date()
+    },
+    {
+        id: 20,
+        name: "Voltorbe",
+        hp: 15,
+        cp: 4,
+        picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/100.png",
+        types: ["Electrik"],
+        created: new Date()
+    }
 ];
 
 export default POKEMONS;
