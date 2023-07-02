@@ -147,11 +147,11 @@ export const POKEMONS: pokemon[] = [
     },
     {
         id: 18,
-        name: "Soporifik",
+        name: "Ramolosse",
         hp: 19,
         cp: 2,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png",
-        types: ["Psy"],
+        types: ["Eau","Psy"],
         created: new Date()
     },
     {
